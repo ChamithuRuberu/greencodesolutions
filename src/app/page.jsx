@@ -13,7 +13,7 @@ const MainSection = () => {
                 <div className={styles.getText}>Get In Touch</div>
               </div>
             </Link>
-            <div style={{ margin: '10px' }}></div>
+            <div style={{ margin: '30px' }}></div>
             <Link href="/security/">
               <div className={styles.learnMore}>
                 <div className={styles.learnMoreTxt}>Learn More</div>
@@ -24,7 +24,6 @@ const MainSection = () => {
           <p>
             Where does it Lorem
             <br />
-            <br />
             come from?
           </p>
           <div className={styles.subText}>
@@ -32,11 +31,11 @@ const MainSection = () => {
           </div>
         </div>
         <div className={styles.slider}>
-          <img
-            className={styles.slide}
+          <div className={styles.slide}><img
+            className={styles.mainImg}
             src="https://www.tenancydepositscheme.com/image_resize/w754/h776/2023/01/man-in-chair-8.png"
-            alt="Slider Image"
-          />
+            alt="Slider Image"/>
+            </div>
         </div>
       </div>
     </div>
